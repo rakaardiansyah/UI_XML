@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <resource>
+            <string android:name="Privacy Policy.>This is an <u>underline</u>.</string>
+        </resources>
+</selector>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/warnaevernote"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVERNOTE"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:textSize="28dp"
+        android:layout_below="@+id/icon"
+        android:layout_alignEnd="@+id/textE1"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPassword"
+        android:background="#91f9aa"
+        android:textColorLink="Required"
+        android:id="@+id/editText"
+        android:layout_above="@+id/textE1"
+        android:layout_marginBottom="21dp"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textEmailAddress"
+        android:textColorLink="Username or Email"
+        android:background="#91f9aa"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="12dp"
+        android:layout_alignStart="@+id/textE1" />
+
+    <TextView
+        android:id="@+id/textE3"
+        android:textSize="18dp"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:text="Forgot Password?"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+    <TextView
+        android:id="@+id/textE1"
+        android:textSize="26dp"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_above="@+id/textE2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logoevery"
+        android:layout_weight="0.16"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Password"
+        android:textSize="19dp"
+        android:background="#91f9aa"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText" />
+
+    <TextView
+        android:text="Email"
+        android:background="#91f9aa"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText2" />
+
+    <TextView
+        android:id="@+id/textE2"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/textE3"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
